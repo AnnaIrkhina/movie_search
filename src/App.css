@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -38,22 +39,24 @@
 }
 ul{
   text-align: left;
+
 }
 li{
   margin: 10px;
-  padding-bottom: 15px ;
+  padding: 5px ;
   background-color: rgba(33,33,33,0.5);
   border: #282c34;
   border-width: 1px;
   border-radius: 15Px;
   color: white;
   font-size: 24px;
-  width: 100%;
+  width: 600px;
   list-style-type: none;
   text-align: left;
 }
-input{
-  margin: 10px;
+.App input{
+  margin-top: 30px;
+  margin-bottom: 0px;
   padding: 15px;
 
   border: #61dafb;
@@ -63,12 +66,22 @@ input{
   font-size: 24px;
   width: 100%;
 }
-img{
 
+.result{
+  display: inline-flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  vertical-align: center;
+}
+.result_img img{
   width: 100px;
   margin: 10px;
 
-  border-width: 1px;
   border-radius: 15Px;
+}
+.result_topic{
+
+  margin: 10px;
+  padding: 5px ;
 
 }
